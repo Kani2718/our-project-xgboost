@@ -1,4 +1,4 @@
-# our-project-xgboost
+# XGBoost Model with Hybrid Rocket Fuels.
 
 The Machine-learning used here in comparing the models and also for Hybrid Rocket Fuels firing data is of Supervised Learning. 
 As it contains two types (Regression, Classification), The commonly used type for continuous Data values is Regression, in which we use it here.
@@ -6,7 +6,7 @@ The Classification is not used because it is only used when the data set is cate
 The Python headers libraries are being listed in requirements files.
 
 Now, We do the comparison on lab-scale Hybrid Rocket Fuels firing data for Paraffin and Beeswax-Based blends.  
-Tree-based regressors (XGBoost, Random Forest, LightGBM) predict performance targets from DAQ and derived ballistic inputs.
+Tree-based regressors (XGBoost) predict performance targets from DAQ and derived ballistic inputs.
 MC Dropout, commomnly called as Monte-Carlo Dropout over a small neural net, is used only to estimate uncertainty on regression rate.
 
 1) **Institution**: Global Academy of Technology (GAT), Department of Aeronautical Engineering  
@@ -67,5 +67,8 @@ This models uses the **train/test split**, features, and metrics for a fair comp
 ```
 
 ## Related repository
-For real-time DAQ data validation with other models, see:
+1) For real-time DAQ data validation with other models, see:
 https://github.com/Kani2718/Hybrid_Rocket_Comparison
+
+2) For real-time DAQ data validation with other models using Leave-One-Out (LOO) Method, see:
+https://github.com/Kani2718/hybrid-fuel-loo-models
